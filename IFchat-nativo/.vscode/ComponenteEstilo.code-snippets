@@ -1,0 +1,15 @@
+{
+	"ComponenteEstiloTs": {
+    "scope": "typescript",
+    "prefix": "ComponenteEstiloTS",
+    "body": [
+      "import { StyleSheet } from 'react-native'",
+      "import { temas } from '../../global/paleta'",
+      "",
+      "export const $2 = StyleSheet.create({",
+      "    ",
+      "});"
+    ],
+    "description": "Componente de Estilo em TypeScript"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Componente Classe TS": {
+    "scope": "typescriptreact",
+    "prefix": "ComponenteClasseTS",
+    "body": [
+      "import React, { Component } from 'react'",
+      "import { View, Text } from 'react-native'",
+      "",
+      "type Props = {",
+      "    $1?: string",
+      "}",
+      "",
+      "export default class $2 extends Component<Props> {",
+      "    render() {",
+      "        return (",
+      "            <>",
+      "              <View><Text>$3</Text></View>",
+      "            </>",
+      "        );",
+      "    }",
+      "}"
+    ],
+    "description": "Componente em classe com tipagem em TypeScript"
+  }
+}

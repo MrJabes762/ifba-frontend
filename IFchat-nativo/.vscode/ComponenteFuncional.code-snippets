@@ -1,0 +1,23 @@
+{
+  "Componente Funcional TS": {
+    "scope": "typescriptreact",
+    "prefix": "ComponenteFuncionalTS",
+    "body": [
+      "import React from 'react'",
+      "import { View, Text } from 'react-native'",
+      "",
+      "type Props = {",
+      "  label?: string",
+      "}",
+      "",
+      "export default function $1(props: Props) {",
+      "  return (",
+      "    <>",
+      "      <View><Text>{props.label}</Text></View>",
+      "    </>",
+      "  );",
+      "}"
+    ],
+    "description": "Componente versão funcional Typescript "
+  }
+}
